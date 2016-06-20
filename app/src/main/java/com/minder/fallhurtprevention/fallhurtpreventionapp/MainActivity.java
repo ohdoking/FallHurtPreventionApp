@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(i);
                 break;
             case R.id.ohBtn:
-                i = new Intent(MainActivity.this, ScrollingActivity.class);
+                i = new Intent(MainActivity.this, SensorActivity.class);
                 startActivity(i);
                 break;
         }

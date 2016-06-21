@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 startActivity(i);
                 break;
             case R.id.ohBtn:
-                i = new Intent(MainActivity.this, SensorActivity.class);
+                i = new Intent(MainActivity.this, BluetoothActivity.class);
                 startActivity(i);
                 break;
         }
